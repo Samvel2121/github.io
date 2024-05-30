@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Линейка стульев King | Dxracer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Блок 1: Введение -->
+    <section id="intro">
+        <video autoplay muted loop id="background-video">
+            <source src="img/moushen.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+        <div class="content">
+            <img src="img/logo.png" alt="Dxracer Logo" class="logo">
+            <h1>Почувствуй мощь и комфорт с новой линейкой стульев King</h1>
+            <p>Откройте для себя революционное сочетание футуристического дизайна и непревзойденного комфорта</p>
+        </div>
+    </section>
+
+    <!-- Блок 2: Особенности -->
+    <section id="features">
+        <div class="container">
+            <div class="feature">
+                <img src="/img/chr1.png" alt="Эргономичный дизайн">
+                <h2>Эргономичный дизайн</h2>
+                <p>Описание эргономичного дизайна</p>
+            </div>
+            <div class="feature">
+                <img src="/img/chr2.png" alt="Настраиваемые элементы">
+                <h2>Настраиваемые элементы</h2>
+                <p>Описание настраиваемых элементов</p>
+            </div>
+            <div class="feature">
+                <img src="/img/chr3.png" alt="Высококачественные материалы">
+                <h2>Высококачественные материалы</h2>
+                <p>Описание высококачественных материалов</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 3: Технологии -->
+    <section id="technology">
+        <div class="container">
+            <h2>Технологии</h2>
+            <div class="tech-details">
+                <img src="img/shm.png" alt="Интерактивная схема стула">
+                <div class="tech-description">
+                    <h3>Поддержка поясницы</h3>
+                    <p>Описание поддержки поясницы</p>
+                    <h3>Регулируемая высота и наклон</h3>
+                    <p>Описание регулировки высоты и наклона</p>
+                    <h3>Долговечные материалы</h3>
+                    <p>Описание долговечных материалов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 4: Отзывы -->
+    <section id="reviews">
+        <div class="container">
+            <h2>Отзывы</h2>
+            <div class="review-carousel">
+                <div class="review">
+                    <img src="img/gm1.png" alt="Иван Иванов">
+                    <p>"Лучший стул, который у меня когда-либо был!"</p>
+                    <p>- Иван Иванов</p>
+                </div>
+                <div class="review">
+                    <img src="/img/gm3.png" alt="Мария Смирнова">
+                    <p>"Очень удобный и стильный стул."</p>
+                    <p>- Мария Смирнова</p>
+                </div>
+                <div class="review">
+                    <img src="img/gm2.png" alt="Алексей Кузнецов">
+                    <p>"Отличное качество и дизайн."</p>
+                    <p>- Алексей Кузнецов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 5: Контакт и заказ -->
+    <section id="contact">
+        <div class="container">
+            <h2>Заказать стул</h2>
+            <form action="submit-order.php" method="post">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <select name="model" required>
+                    <option value="" disabled selected>Выберите модель</option>
+                    <option value="model1">Модель 1</option>
+                    <option value="model2">Модель 2</option>
+                    <option value="model3">Модель 3</option>
+                </select>
+                <button type="submit">Заказать сейчас</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: info@dxracer.com</p>
+                <p>Телефон: +7 (999) 999-99-99</p>
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
